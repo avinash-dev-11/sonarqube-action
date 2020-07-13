@@ -17,7 +17,6 @@ inputs:
   projectBaseDir:
     description: "Set the sonar.projectBaseDir analysis property"
     required: false
-    default: "."
   login:
     description: "Login or authentication token of a SonarQube user"
     required: true
