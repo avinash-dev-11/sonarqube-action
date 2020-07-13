@@ -14,7 +14,7 @@ inputs:
   projectKey:
     description: "The project's unique key. Allowed characters are: letters, numbers, -, _, . and :, with at least one non-digit."
     required: true
-    default: ""
+    default: ${SONAR_PROJECTKEY}
   projectBaseDir:
     description: "Set the sonar.projectBaseDir analysis property"
     required: false
