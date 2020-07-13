@@ -22,4 +22,3 @@ sonar-scanner \
 	-Dsonar.sources=. \
 	-Dsonar.sourceEncoding=UTF-8 \
 	${SONAR_PASSWORD}
-
